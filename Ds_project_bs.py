@@ -3,7 +3,7 @@
 import pandas as pd # for data frames
 import numpy as np # for array reshaping
 import streamlit as st
-import seaborn as sn # for plots
+import seaborn as sns # for plots
 import matplotlib.pyplot as plt # for plots
 from sklearn.model_selection import train_test_split # to do test & train data split
 from sklearn.linear_model import LinearRegression # for linear regression
@@ -40,7 +40,7 @@ print(df.describe().T)
 print(df)
 
 # Seaborn pairplot is used for visualizing the data of each rows with scatter and bar charts
-sn.pairplot(df)
+sns.pairplot(df)
 
 #Displaying the histogram charts for finding the relation between MRP and OutletSales
 hist = df.hist(bins=5)
