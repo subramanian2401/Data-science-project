@@ -2,6 +2,6 @@ numpy
 streamlit
 pandas
 sklearn
-seaborn
+seaborn==0.12.1
 bokeh
 matplotlib
