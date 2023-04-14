@@ -9,7 +9,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 # Add a browse file button to upload a CSV file
-uploaded_file = st.file_uploader(r'C:\Users\subra\Documents\4th semester\Mca 5964 Project\project process\sorted3.csv', type="csv")
+uploaded_file = st.file_uploader(r'Upload File', type="csv")
 
 # If a file was uploaded, read the data into a Pandas DataFrame
 if uploaded_file is not None:
