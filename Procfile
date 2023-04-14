@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run decision_tree.py
+web: sh setup.sh && streamlit run decision_tree.py 
